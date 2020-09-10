@@ -1,2 +1,2 @@
 #!/bib/bash
-chmod 751 */ 
+chmod a+x */ 
