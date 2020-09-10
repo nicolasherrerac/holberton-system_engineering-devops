@@ -1,2 +1,2 @@
 #!/bib/bash
-find type -d chmod 664
+find type -d | chmod a+x 
