@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa .
+find */ -maxdepth 0 -type d
