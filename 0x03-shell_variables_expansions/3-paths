@@ -1,2 +1,2 @@
 #!/bin/bash
-find PATH*/ -type d -name | sort 
+find PATH*/ -type d -name | wc -l 
