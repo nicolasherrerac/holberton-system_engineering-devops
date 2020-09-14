@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alr ./*.gif
+find ./* -type f -name ".gif"
