@@ -1,0 +1,28 @@
+#!/bin/bash
+echo a{a-z}
+echo b{a-z}
+echo c{a-z}
+echo d{a-z}
+echo e{a-z}
+echo f{a-z}
+echo g{a-z}
+echo h{a-z}
+echo i{a-z}
+echo j{a-z}
+echo k{a-z}
+echo l{a-z}
+echo m{a-z}
+echo n{a-z}
+echo ñ{a-z}
+echo o{a-n} o{p-z}
+echo p{a-z}
+echo q{a-z}
+echo r{a-z}
+echo s{a-z}
+echo t{a-z}
+echo u{a-z}
+echo v{a-z}
+echo w{a-z}
+echo x{a-z}
+echo y{a-z}
+echo z{a-z}
