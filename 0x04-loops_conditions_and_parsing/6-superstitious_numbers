@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script display 20 times the number and in some iterations display words
 
-c=0
+c=1
 while [ $c -lt 21 ];
 do echo "$c"
 case $c in
