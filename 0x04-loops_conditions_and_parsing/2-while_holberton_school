@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # This script display 10 time "Holberton school" with while.
+
 n=0
-while [ $n -lt 10 ]; do echo "Holberton school"; n=$(( n+1 )); done 
+while [ $n -lt 10 ]; do echo "Holberton School"; n=$(( n+1 )); done 
