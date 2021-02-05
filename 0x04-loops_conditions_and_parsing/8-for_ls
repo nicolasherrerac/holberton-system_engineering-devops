@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script display the files
+
+for i in *
+do
+echo "$i" | cut -f2 -d "-"
+done
