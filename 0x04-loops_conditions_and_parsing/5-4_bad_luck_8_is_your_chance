@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script displat 10 times "Holberton school" with if elif else.
+
+c=0
+while [ $c -lt 10 ]; do if [ $c -eq 3 ]; then echo "bad luck"; elif [ $c -eq 7 ]; then echo "good luck"; else echo "Holberton School"; fi; c=$(( c+1 )); done 
