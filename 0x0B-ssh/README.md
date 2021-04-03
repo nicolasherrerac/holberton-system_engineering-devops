@@ -1,0 +1,1 @@
+In this project we will connect to a server.
