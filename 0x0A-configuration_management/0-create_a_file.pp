@@ -1,6 +1,7 @@
 # create file in /tmp
 
-file { '/tmp/holberton';
+file { 'holberton';
+	path '/tmp/holberton'
 	ensure 'present';
 	mode '0744';
 	owner 'www-data';
