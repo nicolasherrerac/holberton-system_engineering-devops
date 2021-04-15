@@ -5,7 +5,7 @@ sudo apt-get -y install software-properties-common
 sudo apt-get -y install haproxy=1.6.\*
 
 printf %s "
-fronted http
+frontend http
 	bind *:80
 	default_backend web-backend
 backend web-backend
