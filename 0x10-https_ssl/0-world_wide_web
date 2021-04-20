@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Display information
+
+if [ $# -eq 2]; then
+	dig "$2.$1" | grep -A1 'ANSWER SECTION:' | awk '/ANSWER SECTION:/{getline; printf "The subdomain %s is a %s record and points to %s\n", var, $4, $5}' var="$2"
+else 
+	for var in 'www' 'lb-01' 'web-01' 'web-02'; do
+	dig "$var.$1" | grep -A1 'ANSWER SECTION:'| awk '/ANSWER SECTION:/{getline; printf "The subdomain %s is a %s record and points to %s\n", var, $4, $5}' var="$2"
+    done
+fi
