@@ -1,0 +1,1 @@
+In this project we will install ufw and enable some ports
