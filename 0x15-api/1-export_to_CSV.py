@@ -13,7 +13,6 @@ if __name__ == "__main__":
     todo = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}"
                         .format(user_id)).json()
 
-
     with open("{}.csv".format(user_id), 'w') as csvf:
         fill = csv.writer(csvf, quoting=csv.QUOTE_ALL)
 
